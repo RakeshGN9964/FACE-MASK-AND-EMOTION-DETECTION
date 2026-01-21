@@ -1,10 +1,14 @@
 streamlit==1.29.0
-opencv-python
-numpy
-tensorflow
-keras
-pillow
-mediapipe
+
+# Core
+numpy==1.26.4
+opencv-python-headless==4.9.0.80
+pillow==10.2.0
+
+# TensorFlow (CPU-only, prebuilt wheel)
+tensorflow-cpu==2.13.0
+
+# Streamlit dependencies (locked)
 rich==13.7.0
 markdown-it-py==3.0.0
 pygments==2.17.2
