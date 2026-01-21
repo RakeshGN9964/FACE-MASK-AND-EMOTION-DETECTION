@@ -1,14 +1,5 @@
 streamlit==1.29.0
-
-# GUARANTEED prebuilt wheels
-numpy==1.24.4
-opencv-python-headless==4.8.1.78
-pillow==10.0.1
-
-# TensorFlow CPU (prebuilt)
-tensorflow-cpu==2.12.1
-
-# Streamlit internal deps (locked)
-rich==13.7.0
-markdown-it-py==3.0.0
-pygments==2.17.2
+tensorflow-cpu
+opencv-python-headless
+pillow
+numpy
